@@ -19,7 +19,8 @@ reports are on by default; you can turn them off at any time. Reports are kept f
 Rutalo we ask whether you want to share anonymous usage statistics. If you say yes, the app sends
 which screens you open and which features you use (for example "planned a trip from a shortcut",
 "opened a line's timetable"), together with the app version, phone model, Android version, language,
-approximate country derived from the IP address, and a random app-instance identifier. If you say
+approximate location (city or region), which Google works out from the IP address without keeping
+the address itself, and a random app-instance identifier. If you say
 no, nothing is sent. You can change your answer at any time in Settings; turning statistics off
 also deletes what was gathered on the phone and resets the identifier. Statistics are kept for
 2 months.
