@@ -1,5 +1,7 @@
 # Rutalo privacy policy (iOS)
 
+[Leer en español](PRIVACY-iOS-es.md)
+
 **Last updated:** 2 November 2026
 
 Rutalo is a public transport app for Bilbao and Bizkaia. It is designed to work without collecting
