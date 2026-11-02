@@ -1,8 +1,8 @@
 # Política de privacidad de Rutalo
 
-[Read in English](PRIVACY.md)
+[Read in English](https://github.com/DGuerrero/qmoves-data/blob/main/PRIVACY.md)
 
-*Última actualización: 25 de octubre de 2026*
+*Última actualización: 2 de noviembre de 2026*
 
 Rutalo es una app de transporte público para Bilbao y Bizkaia. Está diseñada para recopilar lo mínimo
 posible: sin cuentas, sin publicidad y sin nada que te identifique.
@@ -55,7 +55,7 @@ cualquier solicitud por internet, el servidor ve tu dirección IP y datos técni
 | Qué | De dónde | Cuándo |
 | :--- | :--- | :--- |
 | Horarios, paradas y lugares | GitHub (github.com) | En el primer arranque y cuando hay una versión más reciente |
-| Horas de salida en directo | Datos abiertos del Gobierno Vasco (opendata.euskadi.eus) y Renfe (gtfsrt.renfe.com) | Mientras consultas salidas o viajes |
+| Horas de salida en directo y avisos del servicio | Datos abiertos del Gobierno Vasco (opendata.euskadi.eus) y Renfe (gtfsrt.renfe.com) | Horas en directo mientras consultas salidas o viajes; avisos cada pocos minutos mientras la app está abierta |
 | Teselas del mapa | OpenFreeMap (tiles.openfreemap.org) | Mientras el mapa está en pantalla |
 | Informes de errores y, si aceptaste, estadísticas de uso | Google Firebase | Como se describe arriba |
 
@@ -79,4 +79,4 @@ Si esta política cambia, la nueva versión se publicará en esta dirección con
 
 ## Contacto
 
-Preguntas sobre esta política: [david@quoders.com](mailto:david@quoders.com)
+Preguntas sobre esta política: [david@quodersmobile.com](mailto:david@quodersmobile.com)
