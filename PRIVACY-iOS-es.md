@@ -2,7 +2,7 @@
 
 [Read in English](PRIVACY-iOS.md)
 
-**Última actualización:** 2 de noviembre de 2026
+**Última actualización:** 9 de noviembre de 2026
 
 Rutalo es una app de transporte público para Bilbao y Bizkaia. Está diseñada para funcionar sin recopilar
 información sobre ti.
@@ -38,10 +38,10 @@ condiciones.
 
 | Proveedor | Qué se solicita | Cuándo |
 | --- | --- | --- |
-| GitHub | Paquete de horarios de la ciudad y su archivo de versión | Al abrir la app |
-| OpenFreeMap | Estilo del mapa y teselas de la zona en pantalla | Mientras se muestra el mapa |
-| Open Data Euskadi | Horas en directo de Metro Bilbao, Bizkaibus y Euskotren, y sus avisos del servicio | Horas en directo mientras sus salidas están en pantalla; avisos cada pocos minutos mientras la app está abierta |
-| Renfe | Horas en directo y avisos del servicio de Renfe Cercanías | Horas en directo mientras sus salidas están en pantalla; avisos cada pocos minutos mientras la app está abierta |
+| GitHub | Lista de ciudades, y el paquete de horarios de la ciudad y su archivo de versión | Al abrir la app |
+| OpenFreeMap | Estilo del mapa y teselas de la zona en pantalla; el mapa de toda la ciudad cuando lo guardas para usarlo sin conexión | Mientras se muestra el mapa; el mapa sin conexión solo cuando lo guardas en Ajustes |
+| Open Data Euskadi | Horas en directo de Metro Bilbao, Bizkaibus y Euskotren; posiciones de sus vehículos y de Bilbobus; sus avisos del servicio | Horas en directo mientras sus salidas están en pantalla; posiciones de vehículos cada 30 segundos mientras hay una parada abierta; avisos cada pocos minutos mientras la app está abierta |
+| Renfe | Horas en directo, posiciones de los trenes y avisos del servicio de Renfe Cercanías | Horas en directo mientras sus salidas están en pantalla; posiciones de los trenes cada 30 segundos mientras hay una parada abierta; avisos cada pocos minutos mientras la app está abierta |
 
 La app hace estas solicitudes solo mientras está abierta. Las teselas del mapa que ves indican a ese proveedor qué
 zona estás mirando.
