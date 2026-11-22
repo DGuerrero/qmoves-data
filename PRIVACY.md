@@ -2,9 +2,9 @@
 
 [Leer en español](https://github.com/DGuerrero/qmoves-data/blob/main/PRIVACY-es.md)
 
-*Last updated: 2 November 2026*
+*Last updated: 22 November 2026*
 
-Rutalo is a public transport app for Bilbao and Bizkaia. It is designed to collect as little as
+Rutalo is a public transport app for Bilbao, Donostia / San Sebastián, Vitoria-Gasteiz and Madrid. It is designed to collect as little as
 possible: no account, no advertising, and nothing that identifies you.
 
 ## What we collect
@@ -58,8 +58,11 @@ internet request the server sees your IP address and basic technical details:
 | :--- | :--- | :--- |
 | Timetables, stops and places | GitHub (github.com) | First launch, then when a newer version exists |
 | Live departure times and service alerts | Basque Government open data (opendata.euskadi.eus) and Renfe (gtfsrt.renfe.com) | Live times while you look at departures or trips; alerts every few minutes while the app is open |
+| EMT arrivals and alerts, and BiciMAD bikes and docks (Madrid only) | A Rutalo relay server on Cloudflare (rutalo-live.rutalo-live-proxy.workers.dev), which fetches the data from EMT de Madrid (MobilityLabs) and keeps no record of who asks | While you look at departures, the map or trips in Madrid |
 | Map tiles | OpenFreeMap (tiles.openfreemap.org) | While the map is on screen |
 | Crash reports and, if you agreed, usage statistics | Google Firebase | As described above |
+
+If you set an arrival alert, the app keeps asking the same live sources every 30 seconds until the alert goes off or you cancel it, for two hours at most, even with the app in the background.
 
 Map tiles are requested for the area shown on the map, which may be the area around you. No
 location coordinates are sent with any request, and none except the Firebase ones carry an

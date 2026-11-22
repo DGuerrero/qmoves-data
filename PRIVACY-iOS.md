@@ -2,9 +2,9 @@
 
 [Leer en español](PRIVACY-iOS-es.md)
 
-**Last updated:** 9 November 2026
+**Last updated:** 22 November 2026
 
-Rutalo is a public transport app for Bilbao and Bizkaia. It is designed to work without collecting
+Rutalo is a public transport app for Bilbao, Donostia / San Sebastián, Vitoria-Gasteiz and Madrid. It is designed to work without collecting
 information about you.
 
 ## What we collect
@@ -40,6 +40,7 @@ your IP address and technical details such as the device's network software, und
 | GitHub | List of cities, and the city's timetable package and its version file | At launch |
 | OpenFreeMap | Map style and map tiles for the area on screen; the whole city's map when you save it for offline use | While the map is shown; the offline map only when you save it in Settings |
 | Open Data Euskadi | Live times for Metro Bilbao, Bizkaibus and Euskotren; vehicle positions for these and Bilbobus; their service alerts | Live times while departures for them are on screen; vehicle positions every 30 seconds while a stop is open; alerts every few minutes while the app is open |
+| Rutalo relay server on Cloudflare (rutalo-live.rutalo-live-proxy.workers.dev), Madrid only | EMT arrivals and bus positions, EMT service alerts and BiciMAD bikes and docks, which it fetches from EMT de Madrid (MobilityLabs); it keeps no record of who asks | While departures, the map or trips in Madrid are on screen |
 | Renfe | Live times, train positions and service alerts for Renfe Cercanías | Live times while departures for it are on screen; train positions every 30 seconds while a stop is open; alerts every few minutes while the app is open |
 
 The app makes these requests only while it is open. The map tiles you view show that provider which

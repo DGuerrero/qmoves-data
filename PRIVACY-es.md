@@ -2,9 +2,9 @@
 
 [Read in English](https://github.com/DGuerrero/qmoves-data/blob/main/PRIVACY.md)
 
-*Última actualización: 2 de noviembre de 2026*
+*Última actualización: 22 de noviembre de 2026*
 
-Rutalo es una app de transporte público para Bilbao y Bizkaia. Está diseñada para recopilar lo mínimo
+Rutalo es una app de transporte público para Bilbao, Donostia / San Sebastián, Vitoria-Gasteiz y Madrid. Está diseñada para recopilar lo mínimo
 posible: sin cuentas, sin publicidad y sin nada que te identifique.
 
 ## Qué recopilamos
@@ -56,8 +56,11 @@ cualquier solicitud por internet, el servidor ve tu dirección IP y datos técni
 | :--- | :--- | :--- |
 | Horarios, paradas y lugares | GitHub (github.com) | En el primer arranque y cuando hay una versión más reciente |
 | Horas de salida en directo y avisos del servicio | Datos abiertos del Gobierno Vasco (opendata.euskadi.eus) y Renfe (gtfsrt.renfe.com) | Horas en directo mientras consultas salidas o viajes; avisos cada pocos minutos mientras la app está abierta |
+| Llegadas y avisos de la EMT, y bicis y anclajes de BiciMAD (solo Madrid) | Un servidor intermedio de Rutalo en Cloudflare (rutalo-live.rutalo-live-proxy.workers.dev), que pide los datos a la EMT de Madrid (MobilityLabs) y no guarda quién los pide | Mientras consultas salidas, el mapa o viajes en Madrid |
 | Teselas del mapa | OpenFreeMap (tiles.openfreemap.org) | Mientras el mapa está en pantalla |
 | Informes de errores y, si aceptaste, estadísticas de uso | Google Firebase | Como se describe arriba |
+
+Si pones un aviso de llegada, la app sigue consultando las mismas fuentes en directo cada 30 segundos hasta que salta el aviso o lo cancelas, dos horas como máximo, aunque la app esté en segundo plano.
 
 Las teselas se solicitan para la zona que muestra el mapa, que puede ser la que te rodea. Ninguna solicitud envía
 coordenadas de ubicación, y solo las de Firebase llevan un identificador.
